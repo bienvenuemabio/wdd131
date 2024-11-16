@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{ 
     display: grid;
     height: 100vh;
@@ -5,14 +10,47 @@ body{
 
 }
 header{
-    background: blue;
+    background: rgb(190, 190, 250);
     padding: 2rem;
     grid-column: 1 / 4;
 }
 .left-sidebar{
-    background: lightcoral;
+    background: rgb(137, 175, 211);
     grid-column: 1 / 2;
 }
+
+.navigation{
+    list-style: none;
+    display: flex;
+    background-color: chocolate;
+    align-items: center;
+}
+
+.navigation a{
+    display:block;
+    color:aliceblue;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+nav{
+    margin: 0 auto 2rem;
+    max-width: 90vw;
+}
+
+.modern a{
+    flex: 1 1 100%;
+}
+
+.navigation a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
 
 main{
     background: rgb(205, 226, 161);
@@ -20,12 +58,12 @@ main{
 }
 
 .right-sidebar{
-    background: lightcoral;
+    background: rgb(241, 197, 197);
     grid-column: 3 / 4;
 }
 
 footer{
-    background: lightblue;
+    background: rgb(55, 63, 66);
     padding:  2rem;
     text-align: center;
     grid-column: 1/4;
