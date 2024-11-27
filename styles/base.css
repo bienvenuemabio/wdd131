@@ -121,7 +121,7 @@ footer{
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     }
     
-    .right-sidebar h2 {
+   //* .right-sidebar h2 {
         font-size: 1.5em;
         margin-bottom: 15px;
     }
@@ -142,7 +142,8 @@ footer{
     
     .right-sidebar ul li a:hover {
         text-decoration: underline;
-    }
+    }*//
+    
     .foot{
         text-align: center;
     }
