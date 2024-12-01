@@ -3,19 +3,21 @@
     margin: 0;
 }
 
-/*header{
-    background-color: rgb(17, 81, 255);
-    display: flex;
+header{
+    background-color: #410863;
+    display: grid;
     align-items : center;
-    justify-content: center;
-    padding: 23px;
+    justify-content: last baseline;
+    padding: 10px;
     border: 1px solid;
-}*/
+}
 
 nav{
     background-color:#410863;
     margin: 0 auto;
     max-width: 580pc;
+    
+
 }
  
 nav ul{
@@ -24,18 +26,19 @@ nav ul{
 nav a{
     display: block;
     color: rgb(221, 240, 238);
-    text-align: center;
+    text-align:left;
     padding: 1rem;
     text-decoration: none;
+    
     
 
 }
 nav a:hover{
-    border: 1px rgb(255, 255, 180);
+    border: 1px solid rgb(255, 255, 186);
 }
 nav ul{
     display: flex;
-
+    
 }
 
 nav ul li {
@@ -49,4 +52,15 @@ footer{
 }
 footer p{
     color: rgb(255, 255, 255);
+}
+h1{
+    color: white;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Roboto, sans-serif;
 }
