@@ -33,6 +33,7 @@ nav a{
     
 
 }
+
 nav a:hover{
     border: 1px solid rgb(255, 255, 186);
 }
@@ -63,4 +64,12 @@ main{
 
 body{
     font-family: Roboto, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap : 25px;
+    place-items:center;
+    
 }
