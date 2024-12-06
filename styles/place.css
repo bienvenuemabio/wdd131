@@ -1,0 +1,28 @@
+*{
+    border: solid 1px rgb(0red, 0green, 1blue);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(179, 0, 164);
+    padding: 1rem;
+    text-align: center;
+
+}
+h1{
+    color: #eee;
+}
+
+body{
+    background-color:rgb(0, 179, 45);
+}
+
+footer{
+    background-color:rgb(179, 0, 164) ;
+    padding: 1rem;
+    text-align: center;
+}
+p{
+    color: #eee;
+}
