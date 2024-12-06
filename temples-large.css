@@ -1,6 +1,11 @@
 @media screen and (min-width: 500px){
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
+    
+    h2{
+        color: rgb(12, 12, 12);
+    }
+    main
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
 }
