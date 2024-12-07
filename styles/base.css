@@ -24,7 +24,7 @@ header{
 .navigation{
     list-style: none;
     display: flex;
-    background-color: chocolate;
+    background-color: rgb(2, 2, 87);
     align-items: center;
 }
 
@@ -49,11 +49,12 @@ nav{
 .navigation a:hover{
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: rgb(241, 241, 237);
 }
 
 
 main{
+    display: grid;
     background: white;
     grid-column: 1 / 3;
 }
