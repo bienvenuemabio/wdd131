@@ -1,0 +1,9 @@
+@media screen and (min-width="500")
+{
+    h2{
+        color:rgb(20, 168, 52);
+    }
+    main{
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

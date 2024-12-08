@@ -5,9 +5,12 @@
     h1{
         color: white;
     }
+    h3{
+        background-color: rgb(253, 100, 40);
+    }
 
     main{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 }

@@ -7,6 +7,11 @@
 body {
 	font-family: Roboto, helvetica, sans-serif;
     margin: 1rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header,
@@ -15,7 +20,14 @@ footer {
 	max-width: 760px;
 	margin: 0 auto;
 }
-
+main{
+    margin: 0;
+    border: 1px solid
+    rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    width: 760px;
+    background-color: #eee;
+}
 /*marquee {
 	padding: 1rem;
 	background-color: #eee;
@@ -73,4 +85,31 @@ footer {
 	text-align: left;
     padding: .5rem;
 }
+.datatable {
+	width: 200px;
+	margin-top: 2rem;
+}
 
+.row {
+	display: grid;
+	grid-template-columns: 100px 100px;
+	align-items: center;
+	text-align: center;
+}
+
+.col {
+	padding: 10px;
+}
+
+a:active{
+    color: navy;
+}
+a:visited{
+    color: navy;
+}
+&:hover{
+    color: purple;
+}
+div.datatable:active{
+    border: 1px solid;
+}
