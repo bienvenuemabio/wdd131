@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 header{
-    background-color: #410863;
+    background-color: #22058a;
     display: grid;
     align-items : center;
     justify-content: last baseline;
@@ -17,7 +17,7 @@ header{
 }
 
 nav{
-    background-color:#410863;
+    background-color:#22058a;
     margin: 0 auto;
     max-width: 580pc;
     
@@ -51,7 +51,7 @@ nav ul li {
 }
 
 footer{
-    background-color: #410863;
+    background-color: #22058a;
     text-align: center;
     padding: 1rem;
 }
