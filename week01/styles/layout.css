@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+}
+
+header {
+    background-color: rgb(53, 49, 49);
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: #eee;
+    padding: 0.75;
+    text-decoration: none;
+    text-align: center;
+    width: 100rem;
+}
