@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 2rem;
+    color: white;
+    display: grid;
+    grid-gap: 1rem;
+
+}
