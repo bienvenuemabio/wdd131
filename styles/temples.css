@@ -25,6 +25,20 @@ h1 {
     text-align: center;
 }
 
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
 h2 {
     text-align: center;
 
@@ -67,6 +81,10 @@ main {
     max-width: 800px;
     margin: 0 auto;
 
+}
+
+#menu.show::before {
+    content: "X";
 }
 
 figure {
