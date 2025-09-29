@@ -22,7 +22,7 @@ body {
 }
 
 main {
-
+    display: block;
     text-align: center;
 }
 
@@ -39,6 +39,7 @@ h2 {
 
 .data {
     text-align: center;
+    
 
 }
 
