@@ -93,6 +93,10 @@ figure {
 
 }
 
+.res-grid {
+    text-align: center;
+}
+
 img {
     width: 100%;
     height: auto;
