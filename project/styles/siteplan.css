@@ -1,0 +1,15 @@
+header {
+    background-color: #A3F4FF;
+    text-align: center;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #d65108;
+    text-align: center;
+}
