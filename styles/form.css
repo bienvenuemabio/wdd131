@@ -17,18 +17,40 @@ header {
 main {
     display: block;
     padding: 2rem;
-    text-align: center;
-
+    text-align: justify;
+    background-color: rgb(213, 185, 219);
 }
-label{
+
+
+label {
     display: block;
     font-weight: 700;
+    padding: 1rem;
+    margin: 1rem;
 }
+
 input[type=text],
 input[type=radio],
 input[type=checkbox] {
     margin: 1rem;
     padding: 0.5rem;
+}
+
+input[type="radio"] {
+    position: relative;
+}
+
+
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    direction: right;
 }
 
 footer {
