@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Kouassi Bienvenue Mabio- form</title>
+    <meta
+        description="WDD 131 - Dynamic Web Fundamentals - Kouassi Bienvenue Adjoua Felicite Mabio- a page of a product form that can be filled">
+    <meta author="Kouassi Bienvenue Adjoua Felicite Mabio">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1> Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <label for="productname" id="productname"> Product Name
+            </label>
+            <select name="productname" id="prodname" required title="Choose a Product">
+                <option value="choose"></option>
+            </select>
+            <label for="overallrating"> Overall Rating
+            </label>
+            <div class="star">
+                <input type="radio" name="one" id="onestar" value="1" required> ☆ <label for="onestar"> </label>
+                <input type="radio" name="one" id="twostar" value="2" required> ☆☆ <label for="twostar"> </label>
+                <input type="radio" name="one" id="treestar" value="3" required> ☆☆☆ <label for="treestar"> </label>
+                <input type="radio" name="one" id="fourstar" value="4" required> ☆☆☆☆ <label for="fourstar"> </label>
+                <input type="radio" name="one" id="fivestar" value="5" required> ☆☆☆☆☆ <label for="fivestar"> </label>
+            </div>
+            <label for="date"> Date for installation </label>
+            <input type="date" name="date" id="dateofins" required>
+            <label for="usefulfeatures"> Useful Features</label>
+            <input type="checkbox" id="durability" name="durability" value="1"> <label for="durability">
+                Durability</label>
+            <div><input type="checkbox" id="easeofuse" name="easeofuse" value="2"> <label for="easeof use"></label>
+            </div>
+            <input type="checkbox" id="performance" name="performance" value="3"> <label for="performance">
+                performance</label>
+            <input type="checkbox" id="design" name="design" value="4"> <label for="performance">
+                Design</label>
+            <label for="writtenreview">Written Review(optional)</label>
+            <input type="textarea" id="textarea" name="textarea">
+            <label for="yourname"> User Name(optional) </label>
+            <input type="text" name="yourname" id="yourname">
+
+            <input type="submit" name="submit" id="submit" value="">
+
+        </form>
+
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span>🌸Bienvenue Kouassi Mabio🌸Cote d'Ivoire</p>
+        <p> lastModified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

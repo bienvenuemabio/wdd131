@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 2rem;
+    color: beige;
+    text-align: center;
+}
+
+main {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+
+}
+label{
+    display: block;
+    font-weight: 700;
+}
+input[type=text],
+input[type=radio],
+input[type=checkbox] {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    color: beige;
+}
