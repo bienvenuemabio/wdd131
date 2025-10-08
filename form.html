@@ -24,8 +24,13 @@
         <form method="get" action="review.html">
             <label for="productname" id="productname"> Product Name
             </label>
-            <select name="productname" id="prodname" required title="Choose a Product">
-                <option value="choose"></option>
+            <select name="productname" id="productselect" required title="Choose a Product">
+                <option value="0">Choose a Product</option>
+                <option value="1">flux capacitor</option>
+                <option value="2">power laces</option>
+                <option value="3">time circuits</option>
+                <option value="4">low voltage reactor</option>
+                <option value="5">warp equalizer</option>
             </select>
             <label for="overallrating"> Overall Rating
             </label>
@@ -36,7 +41,7 @@
                 <input type="radio" name="one" id="fourstar" value="4" required> ☆☆☆☆ <label for="fourstar"> </label>
                 <input type="radio" name="one" id="fivestar" value="5" required> ☆☆☆☆☆ <label for="fivestar"> </label>
             </div>
-            <label for="date"> Date for installation </label>
+            <label for="date"> Date for Installation </label>
             <input type="date" name="date" id="dateofins" required>
             <label for="usefulfeatures"> Useful Features</label>
             <input type="checkbox" id="durability" name="durability" value="1"> <label for="durability">
