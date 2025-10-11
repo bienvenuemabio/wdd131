@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: #9cbdc1;
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    border: 1px solid #1a00c2 #d65108;
+    box-shadow: 0 0 30px #1a00c2;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation {
+    display: grid;
+    background-color: #d65108;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #9cbdc1;
+    text-align: center;
+}
