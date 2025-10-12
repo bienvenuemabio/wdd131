@@ -16,9 +16,12 @@ header {
 }
 
 span {
-    display: block;
-    text-align: center;
     color: white;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 nav {

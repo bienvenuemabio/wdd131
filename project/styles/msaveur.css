@@ -5,30 +5,83 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
 header {
     background-color: #9cbdc1;
-    text-align: center;
-    display: grid;
-    padding: 20px;
     border: 1px solid #1a00c2 #d65108;
     box-shadow: 0 0 30px #1a00c2;
+    text-align: center;
+    grid-column: 1/4;
 }
 
-ul {
-    list-style: none;
+.logo {
+    text-align: center;
+}
+
+span {
+    color: #1a00c2;
+    font-size: large;
+    font-style: oblique;
+}
+
+nav {
+
+    margin: 1rem;
 }
 
 .navigation {
-    display: grid;
-    background-color: #d65108;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #d65108;
+    list-style: none;
+    color: #103034;
 }
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #9cbdc1;
+}
+
+.navigation a:hover {
+    background-color: #1a00c2;
+    font-weight: 700;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    grid-column: 1/3;
+}
+
+.about {
+
+    height: auto;
+}
+
+div {
+    padding: 2rem;
+}
+
+
+
 
 footer {
     background-color: #9cbdc1;
     text-align: center;
+    grid-column: 1/4;
 }
