@@ -92,8 +92,6 @@ a.active {
 .card {
     height: auto;
     padding: 20px;
-
-
 }
 
 div {
@@ -104,6 +102,20 @@ div {
     content: "X";
 }
 
+.key {
+    background-color: #d65108;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
 
 footer {
     background-color: #9cbdc1;
