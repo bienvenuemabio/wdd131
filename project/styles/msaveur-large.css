@@ -18,4 +18,10 @@
     #menu {
         display: none;
     }
+
+    .logo {
+        text-align: center;
+        width: auto;
+
+    }
 }
