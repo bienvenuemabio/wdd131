@@ -18,28 +18,43 @@ header {
     grid-column: 1/4;
 }
 
-.logo {
-    text-align: center;
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #9cbdc1;
+    color: #1a00c2;
+
 }
 
-span {
-    color: #1a00c2;
-    font-size: large;
-    font-style: oblique;
+.navigate {
+    text-align: right;
+}
+
+.logo {
+    text-align: left;
+    width: auto;
+    height: 10px;
+    padding: 0;
+}
+
+#menu::before {
+    content: "≡";
 }
 
 nav {
-
     margin: 1rem;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     background-color: #d65108;
     list-style: none;
     color: #103034;
+    text-align: center;
 }
 
 .navigation li {
@@ -69,7 +84,6 @@ main {
 }
 
 .about {
-
     height: auto;
 }
 
@@ -77,7 +91,9 @@ div {
     padding: 2rem;
 }
 
-
+#menu.show::before {
+    content: "X";
+}
 
 
 footer {
